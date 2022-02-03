@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item
+            android:title="Lego"
+            android:id="@+id/menu_lego"
+            android:icon="@drawable/icon_lego">
+            <menu>
+                <group android:checkableBehavior="all">
+                    <item
+                        android:id="@+id/menu_a"
+                        android:title="Architecture"
+                        android:icon="@drawable/icon_lego"/>
+                    <item android:id="@+id/menu_bh"
+                        android:title="Brick Headz"
+                        android:icon="@drawable/icon_lego"/>
+                    <item android:id="@+id/menu_sw"
+                        android:title="Star Wars"
+                        android:icon="@drawable/icon_lego"/>
+                    <item android:id="@+id/menu_ce"
+                        android:title="Creator Expert"
+                        android:icon="@drawable/icon_lego" />
+                </group>
+            </menu>
+
+        </item>
+    </group>
+
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_oc"
+            android:title="Don't miss">
+            <menu>
+                <group android:checkableBehavior="all">
+
+                    <item
+                        android:id="@+id/menu_oc_dis"
+                        android:title="Discounts" />
+                    <item
+                        android:id="@+id/menu_oc_bs"
+                        android:title="Best sellers" />
+                    <item
+                        android:id="@+id/menu_oc_np"
+                        android:title="New products"/>
+
+                </group>
+            </menu>
+
+        </item>
+    </group>
+
+
+    <group
+        android:id="@+id/group_3"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/menu_special"
+            android:title="Special for you" />
+
+
+    </group>
+
+
+
+</menu>
